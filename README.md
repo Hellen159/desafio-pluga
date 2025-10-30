@@ -50,10 +50,16 @@ Siga os comandos abaixo no seu terminal para configurar e iniciar o ambiente de 
 
 ### 1. Clonar o Repositório
 
-Navegue até o diretório do projeto:
+Navegue até apasta que deseja clonar o projeto e execute:
 
 ```bash
-cd [nome-do-diretorio-do-projeto]
+git clone https://github.com/Hellen159/desafio-pluga.git
+```
+
+Navegue para dentro do projeto que acabou de clonar:
+
+```bash
+cd desafio-pluga
 ```
 
 ### 2. Instalar as Dependências

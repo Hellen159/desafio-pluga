@@ -27,6 +27,6 @@ export const fetchApps = async (): Promise<AppTool[]> => {
 
     } catch (error) {
         console.error("Erro na comunicação com a API:", error);
-        throw new Error("Não foi possível carregar as ferramentas. Verifique a URL e a estrutura de dados.");
+        throw error;
     }
 };
