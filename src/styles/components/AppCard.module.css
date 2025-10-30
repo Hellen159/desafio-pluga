@@ -1,0 +1,30 @@
+.appCard {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 180px; 
+}
+
+.appCard:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--color-shadow);
+}
+
+.appIcon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.cardBody h3 {
+    font-size: 1rem;
+    margin: 0;
+}

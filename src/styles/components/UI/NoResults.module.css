@@ -1,0 +1,16 @@
+.noResultsContainer {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.1rem;
+    color: var(--color-secondary);
+}
+
+.alertIcon {
+    color: var(--color-secondary);
+    margin-bottom: 10px;
+}
+
+.noResultsDetail {
+    color: #666;
+    font-size: 0.95rem;
+}

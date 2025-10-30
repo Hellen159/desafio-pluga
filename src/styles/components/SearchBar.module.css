@@ -1,0 +1,42 @@
+.searchBarContainer {
+    margin-bottom: 30px;
+    position: relative; 
+}
+
+.searchIcon {
+    position: absolute;
+    left: 15px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    color: var(--color-secondary); 
+    z-index: 1; 
+}
+
+.searchInput {
+    width: 100%;
+    padding: 12px 15px 12px 45px; 
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding-right: 40px; 
+}
+
+.clearButton {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--color-secondary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1; 
+    transition: color 0.2s;
+}
+
+.clearButton:hover {
+    color: var(--color-text);
+}
