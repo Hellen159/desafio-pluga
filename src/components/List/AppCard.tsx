@@ -14,11 +14,19 @@ const AppCard: React.FC<AppCardProps> = ({ app, onClick }) => {
         color: '#FFFFFF' 
     };
 
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault(); 
+            onClick(app);
+        }
+    };
+
     return (
         <div 
             style={cardStyle} 
             className={styles.appCard} 
             onClick={() => onClick(app)} 
+            onKeyDown={handleKeyDown}
             role="button" 
             tabIndex={0}
         >
